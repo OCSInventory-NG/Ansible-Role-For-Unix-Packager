@@ -14,7 +14,7 @@
 
 ## Summary
 
-- [Description](#Description)
+- [Description](#description)
 - [Current compatibility](#Current-compatibility)
 - [Configure Playbooks](#Configure-Playbooks)
 - [Run Playbooks](#Run-Playbooks)
