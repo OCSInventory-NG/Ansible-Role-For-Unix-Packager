@@ -15,8 +15,8 @@
 ## Summary
 
 - [Description](#description)
-- [Current compatibility](#currentcompatibility)
-- [Configure Playbooks](#Configure-Playbooks)
+- [Current compatibility](#current-compatibility)
+- [Configure Playbooks](#configure-playbooks)
 - [Run Playbooks](#Run-Playbooks)
   * [Deploy OCS Agent package on Discovery Machines](#Deploy-OCS-Agent-package-on-Discovery-Machines)
   * [Run IP Discovery](#Run-IP-Discovery)
