@@ -1,0 +1,6 @@
+---
+- hosts: all
+  roles:
+    - ocs_deploy
+  vars:
+    - ocs_agent_package_dir: "/path/to/packagerunix/files/"

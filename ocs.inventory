@@ -1,0 +1,11 @@
+[redhat_hosts]
+192.168.56.103
+
+[ubuntu_hosts]
+192.168.56.104
+
+[debian_hosts]
+192.168.56.105
+
+[nmap_hosts]
+192.168.56.106

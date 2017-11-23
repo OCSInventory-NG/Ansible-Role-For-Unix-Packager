@@ -1,0 +1,8 @@
+---
+- hosts: all:!nmap_hosts
+  roles:
+    - ocs_run
+  vars:
+    - ocs_server_host: 192.168.56.102
+    - ocs_server_port: 80
+    - ocs_server_protocol: http
