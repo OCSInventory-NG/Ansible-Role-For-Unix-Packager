@@ -1,0 +1,7 @@
+---
+- name: Run NMAP for RDP discovery
+  shell: "{{ ocs_dir }}/nmap/bin/nmap -sS -p {{ rdp_port }} --open {{ network }}/{{ netmask }} -oG /tmp/nmap_rdpdiscover_{{ network }}_{{ netmask }}.out"
+
+- name: Retrieve RDP Discover output file
+  fetch: src=/tmp/nmap_rdpdiscover_{{ network }}_{{ netmask }}.out dest=nmap_results/nmap_rdpdiscover_{{ network }}_{{ netmask }}.out flat=yes
+

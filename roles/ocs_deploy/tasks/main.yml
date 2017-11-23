@@ -1,0 +1,9 @@
+---
+- include: Debian.yml
+  when: ansible_distribution == 'Debian'
+
+- include: RedHat.yml
+  when: ansible_distribution == 'RedHat' or ansible_distribution == 'CentOS'
+
+- include: Ubuntu.yml
+  when: ansible_distribution == 'Ubuntu'

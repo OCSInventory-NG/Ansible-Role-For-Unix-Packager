@@ -1,0 +1,7 @@
+---
+- name: Run NMAP for SSH discovery
+  shell: "{{ ocs_dir }}/nmap/bin/nmap -sS -p {{ ssh_port }} --open {{ network }}/{{ netmask }} -oG /tmp/nmap_sshdiscover_{{ network }}_{{ netmask }}.out"
+
+- name: Retrieve SSH Discover output file
+  fetch: src=/tmp/nmap_sshdiscover_{{ network }}_{{ netmask }}.out dest=nmap_results/nmap_sshdiscover_{{ network }}_{{ netmask }}.out flat=yes
+

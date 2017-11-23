@@ -1,0 +1,3 @@
+---
+- name: Remove OCS Directory
+  file: path={{ ocs_dir }} state=absent

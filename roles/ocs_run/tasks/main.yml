@@ -1,0 +1,3 @@
+---
+- name: Run OCS Agent
+  shell: "{{ ocs_dir }}/ocsinventory-agent -s {{ ocs_server_protocol }}://{{ ocs_server_host }}:{{ ocs_server_port }}/ocsinventory --basevardir={{ ocs_dir }}/var/lib/ocsinventory-agent"

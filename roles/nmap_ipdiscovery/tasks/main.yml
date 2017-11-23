@@ -1,0 +1,7 @@
+---
+- name: Run NMAP for IP discovery
+  shell: "{{ ocs_dir }}/nmap/bin/nmap -sP -PR {{ network }}/{{ netmask }} -oG /tmp/nmap_ipdiscover_{{ network }}_{{ netmask }}.out"
+
+- name: Retrieve IP Discover output file
+  fetch: src=/tmp/nmap_ipdiscover_{{ network }}_{{ netmask }}.out dest=nmap_results/nmap_ipdiscover_{{ network }}_{{ netmask }}.out flat=yes
+

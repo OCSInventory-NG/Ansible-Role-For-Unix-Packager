@@ -1,0 +1,8 @@
+---
+- name: Deploy OCS Agent for Ubuntu 16
+  unarchive:  src={{ ocs_agent_package_ubuntu_16 }} dest=/
+  when: ansible_distribution == 'Ubuntu' and ansible_distribution_major_version == '16'
+
+- name: Deploy OCS Agent for Debian 14
+  unarchive:  src={{ ocs_agent_package_ubuntu_14 }} dest=/
+  when: ansible_distribution == 'Ubuntu' and ansible_distribution_major_version == '14'

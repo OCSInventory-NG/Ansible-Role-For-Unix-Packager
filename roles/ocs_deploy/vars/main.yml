@@ -1,0 +1,7 @@
+---
+ocs_agent_package_debian_8: "ocsinventory-agent_debian-8.tar.gz"
+ocs_agent_package_debian_7: "ocsinventory-agent_debian-7.tar.gz"
+ocs_agent_package_ubuntu_16: "ocsinventory-agent_ubuntu-16.tar.gz"
+ocs_agent_package_ubuntu_14: "ocsinventory-agent_ubuntu-14.tar.gz"
+ocs_agent_package_rhel_7: "ocsinventory-agent_rhel-7.tar.gz"
+ocs_agent_package_rhel_6: "ocsinventory-agent_rhel-6.tar.gz"
