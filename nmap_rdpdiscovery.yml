@@ -1,0 +1,8 @@
+---
+- hosts: nmap_hosts
+  roles:
+    - nmap_rdpdiscovery
+  vars:
+    - network: 192.168.0.0
+    - netmask: 24
+    - rdp_port: 3389

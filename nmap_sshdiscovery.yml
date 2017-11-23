@@ -1,0 +1,8 @@
+---
+- hosts: nmap_hosts
+  roles:
+    - nmap_sshdiscovery
+  vars:
+    - network: 192.168.0.0
+    - netmask: 24
+    - ssh_port: 22

@@ -1,0 +1,7 @@
+---
+- hosts: nmap_hosts
+  roles:
+    - nmap_ipdiscovery
+  vars:
+    - network: 192.168.0.0
+    - netmask: 24
