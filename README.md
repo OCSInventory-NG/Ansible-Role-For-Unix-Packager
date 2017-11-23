@@ -18,12 +18,12 @@
 2. [Current compatibility](#Current-compatibility)
 3. [Configure Playbooks](#Configure-Playbooks)
 4. [Run Playbooks](#Run-Playbooks)
-  - [Deploy OCS Agent package on Discovery Machines](#Deploy-OCS-Agent-package-on-Discovery-Machines)
-  - [Run IP Discovery](#Run-IP-Discovery)
-  - [Run SSH Discovery](#Run-SSH-Discovery)
-  - [Run RDP Discovery](#Run-RDP-Discovery)
-  - [Deploy OCS Agent package on all SSH discovered servers](#Deploy-OCS-Agent-package-on-all-SSH-discovered-servers)
-  - [Run OCS Agent command on all discovered servers](#Run-OCS-Agent-command-on-all-discovered-servers)
+  * [Deploy OCS Agent package on Discovery Machines](#Deploy-OCS-Agent-package-on-Discovery-Machines)
+  * [Run IP Discovery](#Run-IP-Discovery)
+  * [Run SSH Discovery](#Run-SSH-Discovery)
+  * [Run RDP Discovery](#Run-RDP-Discovery)
+  * [Deploy OCS Agent package on all SSH discovered servers](#Deploy-OCS-Agent-package-on-all-SSH-discovered-servers)
+  * [Run OCS Agent command on all discovered servers](#Run-OCS-Agent-command-on-all-discovered-servers)
 5. [Encrypted Passwords File](#encrypted_password)
 
 ## Description
